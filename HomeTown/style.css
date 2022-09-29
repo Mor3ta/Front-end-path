@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+}
+
+.header-container img{
+    border-bottom: 9px solid #d40000 ;
+    height: 400px;
+    width: 100%;
+}
+
+.header-title{
+    font-family: ;
+    background-color: #ffffff;
+    font-size: 25px;
+    left: 30%;
+    line-height:5px;
+    position: absolute;
+    opacity: 0.8;
+    top:5%;
+    text-align: center;
+    width: 40%;
+}
+
