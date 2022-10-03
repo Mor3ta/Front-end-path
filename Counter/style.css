@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content:  center;
+}
+
+.counter-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    border: 5px solid #000;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+.counter-main-title,
+.counter-main-value{
+    text-align: center;
+}
+
+.counter-main-value{
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.counter-btn-increment,
+.counter-btn-save{
+    width: 30%;
+    border: none;
+    border-radius: 3px;
+    color: #fff; 
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 5px;
+    padding: 10px;
+}
+
+.counter-btn-increment{
+    background-color:#A31621;
+}
+.counter-btn-save{
+    background-color: #279037;
+}
