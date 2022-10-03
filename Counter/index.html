@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Passenger counter</title>
 </head>
 <body>
     <div class="counter-main">
         <h2 class="counter-main-title">People Entered</h2>
         <span  id="counter-value" class="counter-main-value">0</span>
         <button class="counter-btn-increment" onclick="increment()">Increment</button>
-        <button class="counter-btn-save">Save</button>
-        <span class="counter-main-previous-values">Previous entries: 5-7-12-</span>
+        <button class="counter-btn-save" onclick="save()">Save</button>
+        <span id="previous-values" class="counter-main-previous-values">Previous entries: 0</span>
     </div>
 </body>
 <script src="script.js"></script>
