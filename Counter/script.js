@@ -1,15 +1,18 @@
 let counter = 0
 let previous_entries = []
+let counter_value = document.getElementById('counter-value');
+let previous_values = document.getElementById('previous-values');
 
-let increment =()=>{
+
+let increment= ()=>{
     counter = counter +1;
     previous_entries.push(counter)
-    document.getElementById('counter-value').innerHTML = counter;
+    counter_value.innerHTML = counter;
 }
 
-let save =()=>{
+let save= ()=>{
     previous_entries.forEach(number => {
-      document.getElementById('previous-values').innerHTML = `Previous entries: ${number}`; 
+      previous_values.innerHTML = `Previous entries: ${number}`; 
     });
-    document.getElementById('counter-value').innerHTML = counter=0;
+   counter_value.innerHTML= counter= 0;
 }
