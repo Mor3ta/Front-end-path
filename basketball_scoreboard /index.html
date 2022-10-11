@@ -13,24 +13,24 @@
             <div class="board-result">
                 <h3 class="board-result-title">HOME</h3>
                 <div class="board-result-point">
-                    <span>0</span>
+                    <span id="board-result-home">0</span>
                 </div>
                
                 <div class="board-point-control">
-                    <span>+1</span>
-                    <span>+2</span>
-                    <span>+3</span>
+                    <span onclick="addPoint('home',1)">+1</span>
+                    <span onclick="addPoint('home',2)">+2</span>
+                    <span onclick="addPoint('home',3)">+3</span>
                 </div>
             </div>
             <div class="board-result">
                 <h3 class="board-result-title">GUEST</h3>
                 <div class="board-result-point">
-                    <span>0</span>
+                    <span id="board-result-guest">0</span>
                 </div>
                 <div class="board-point-control">
-                    <span>+1</span>
-                    <span>+2</span>
-                    <span>+3</span>
+                    <span onclick="addPoint('guest',1)">+1</span>
+                    <span onclick="addPoint('guest',2)" >+2</span>
+                    <span onclick="addPoint('guest',3)">+3</span>
                 </div>
             </div>
         </div>
